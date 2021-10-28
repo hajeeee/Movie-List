@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Haje's Watchlist</title>
+    <link
+        rel="icon"
+        type="image/png"
+        href="./image/webIcon.png"
+        sizes="16x16"
+    />
+    <link rel="stylesheet" href="./css/main-styles.css" />
+    <script src="./main.js"></script>
+</head>
+<body>
+    <div id="main-page">
+        <div class="center">
+            <h1 class="title-title" style="text-align: justify;">Haje's Watchlist</h1>
+            <div id="form" class="form-search">
+                <input type="text" id="query" name="q" placeholder="Search.." autocomplete="off" value="" onkeypress="searchSubmit(this, event);">  
+                <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
+            </div>
+            
+            <div class="setting-list">
+                <div>
+                    <h4>Sort By:</h4>
+                    <div class="custom-select">
+                        <select id="sort-select" onchange="this.blur();" onfocus='this.size=10;' onblur='this.size=0;'>
+                            <option value="latest"selected>Latest</option>
+                            <option value="oldest">Oldest</option>
+                            <option value="name">Name</option>
+                            <option value="rating">Rating</option>
+                            <option value="year">Year</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <h4>Rating:</h4>
+                    <div class="custom-select" >
+                        <select id="rating-display" onchange="this.blur();" onfocus='this.size=10;' onblur='this.size=0;'>
+                            <option value="0" selected>All</option>
+                            <option value="9">9+</option>
+                            <option value="8">8+</option>
+                            <option value="7">7+</option>
+                            <option value="6">6+</option>
+                            <option value="5">5+</option>
+                            <option value="4">4+</option>
+                            <option value="3">3+</option>
+                            <option value="2">2+</option>
+                            <option value="1">1+</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <h4>Genre:</h4>
+                    <div class="custom-select">
+                        <select id="genre-display" onchange="this.blur();" onfocus='this.size=10;' onblur='this.size=0;'>
+                            <option value="All" selected>All</option>
+                            <option value="Action">Action</option>
+                            <option value="Fantasy">Fantasy</option>
+                            <option value="Family">Family</option>
+                            <option value="Animation">Animation</option>
+                            <option value="Sci-Fi">Sci-Fi</option>
+                            <option value="Adventure">Adventure</option>
+                            <option value="Mystery">Mystery</option>
+                            <option value="Thriller">Thriller</option>
+                            <option value="Drama">Drama</option>
+                            <option value="Romance">Romance</option>
+                            <option value="Biography">Biography</option>
+                            <option value="History">History</option>
+                            <option value="Comedy">Comedy</option>
+                            <option value="Crime">Crime</option>
+                            <option value="Music">Music</option>
+                        </select>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            <div id="movie-list" class="flex-wrap-movielist">
+                <script>listMovie();</script>
+            </div>
+        </div>
+    </div>
+    <div id="top-button">
+        <button onclick="topFunction()" id="button-top" class="btn-top"></button>
+    </div>
+
+    
+    
+</body>
+</html>
