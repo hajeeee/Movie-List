@@ -8,13 +8,14 @@
 ### Sub Page
 ![img-sample-2](https://user-images.githubusercontent.com/81221911/139441592-fcfbf6d8-e0ef-45d7-9cd8-200e418f5bc6.png)
 
-# Feature
+# Features
 
 * Search      
 * Sort By     
 * Display By Rating
 * Display By Genre
 * To Top Button  
+* Similar Movie (Based on genre only)
 * Home Button  
 * My watchlist actually  
 
