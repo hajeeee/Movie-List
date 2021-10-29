@@ -1,22 +1,29 @@
 # MOVIE LIST BY Hajeeee
+:nauseated_face: :nauseated_face: :nauseated_face:
 
-
-##  Screenshot
+#  Screenshot
 ### Main Page
-
 ![Main Page.](/sample1.jpg "Screenshot Main Page")
+![Main Page.](https://user-images.githubusercontent.com/81221911/139441506-fcd8f2d3-52e9-4a7a-a8bc-5b66ad306a9c.png "Screenshot Main Page")
 
 ### Sub Page
 ![Sub Page.](/sample2.jpg "Screenshot Sub Page")
+![img-sample-2](https://user-images.githubusercontent.com/81221911/139441592-fcfbf6d8-e0ef-45d7-9cd8-200e418f5bc6.png)
 
-## Feature
+# Feature
 
-* Search      : Ketik di search bar, lalu tekan enter (keycode=13).
-* Sort By     : Click nanti ada dropdown list, lalu tekan enter dari search bar(keycode=13).
-* Display By  : Rating/Genre, click nanti ada dropdown list, lalu tekan enter dari search bar(keycode=13).
-* To-Top-Btn  : Click nanti bakal balik ke top page.
-* Home-btn    : Click nanti bakal balik ke main page.
+* Search      
+* Sort By     
+* Display By Rating
+* Display By Genre
+* To Top Button  
+* Home Button  
+* My watchlist actually  
 
-Search, Sort By, Display By akan saling mempengaruhi.
+# Demo
+
+
+https://user-images.githubusercontent.com/81221911/139441876-b8172684-5d60-4914-8ed0-da6dc928ceca.mp4
+
 
 
